@@ -1,16 +1,16 @@
 //@param {boolean} r - Just to decide what to return (primitive value or object)
 function Cycling(r) {
-    helmet = true;
-    cyclist = function () {
+    this.helmet = true;
+    this.cyclist = function () {
         return {
             firstname: 'Luigi',
             lastname: 'D\'Aversa'
         }
     }
-    bike = "Carbon steel";
+    this.bike = "Carbon steel";
 
 
-    return r ? 15 : horseback
+  return r ? 15 : horseback
 }
 
 var horseback = {
