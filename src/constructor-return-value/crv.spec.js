@@ -22,7 +22,7 @@ describe("crv - constructor return value", function () {
 
   describe("returning an object", function () {
 
-    it("calling the constructor, the return values is that specific object", function () {
+    it("calling the constructor, the return value is that specific object", function () {
       var cycling = new Cycling(false);
       expect(typeof cycling).toEqual("object");
       expect(cycling).toBe(horseback)
