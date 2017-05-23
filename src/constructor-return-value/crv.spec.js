@@ -14,6 +14,7 @@ describe("crv - constructor return value", function () {
     it("calling the constructor, primitive value ignored, the return values is a new initialized object", function () {
       var cycling = new Cycling(true);
       expect(typeof cycling).toEqual("object");
+      expect(cycling instanceof Cycling).toBeTruthy();
       expect(cycling.helmet).toEqual(true);
     });
   });
