@@ -2,7 +2,6 @@
 
 Repository that contains demos showing some interesting aspects of JavaScript Language. 
 Some of them shared through tweets (account @Luigi_DAversa)
-Work in Progress
 
 ## How to use
 
