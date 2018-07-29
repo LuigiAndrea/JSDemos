@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/LuigiAndrea/Translation.png?branch=master)](https://travis-ci.org/LuigiAndrea/JSDemos)
+
 ### JSDEMOS
 
 Repository that contains demos showing some interesting aspects of JavaScript Language. 
