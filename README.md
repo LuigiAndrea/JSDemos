@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/LuigiAndrea/JSDemos.svg?branch=master](https://travis-ci.org/LuigiAndrea/JSDemos)
+[![Build status](https://api.travis-ci.org/LuigiAndrea/JSDemos.svg?branch=master)](https://travis-ci.org/LuigiAndrea/JSDemos)
 [![Build status](https://ci.appveyor.com/api/projects/status/i2hows2lnh2my35w/branch/master?svg=true)](https://ci.appveyor.com/project/LuigiAndrea/jsdemos/branch/master)
 
 ### JSDEMOS
