@@ -17,6 +17,7 @@ describe("Static", function () {
 
       expect(CountryOldWay.ComparePopulation(country, country2)).toEqual(-1);
       expect(country.GetPopulation()).toEqual(5510000);
+      expect(country2.GetPopulation()).toEqual(6500000);
     });
   });
   

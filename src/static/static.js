@@ -17,9 +17,9 @@ class Country {
 function CountryOldWay(name, population) {
     this.name = name;
     this.population = population;
-
-    this.GetPopulation = function() { return this.population; }
 }
+
+CountryOldWay.prototype.GetPopulation = function(){ return this.population }; 
 
 CountryOldWay.ComparePopulation = function (country1, country2) {
     var r = country1.population - country2.population;
