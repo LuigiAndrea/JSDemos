@@ -8,7 +8,7 @@ describe("Static", function () {
       var country2 = new Country('Ireland', 6500000);
       
       expect(Country.ComparePopulation(country, country2)).toEqual(1);
-      expect(country.GetPopulation()).toEqual(38000000);
+      expect(country.Population).toEqual(38000000);
     });
   
     it("static before es6", function () {

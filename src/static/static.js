@@ -4,7 +4,7 @@ class Country {
         this.name = name
     }
 
-    GetPopulation() {
+    get Population() {
         return this.population;
     }
 
